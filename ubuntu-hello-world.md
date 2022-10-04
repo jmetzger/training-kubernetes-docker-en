@@ -36,11 +36,11 @@ docker login
 user: dockertrainereu 
 pass: --bekommt ihr vom trainer--
 
-# docker push dockertrainereu/<dein-name>-hello-docker 
+# docker push dockertrainereu/<your-name>-hello-docker 
 # z.B. 
-docker push dockertrainereu/jm-hello-docker
+docker push dockertrainereu/<your-name>-hello-docker
 
-# und wir schauen online, ob wir das dort finden
+# and look if we find it 
 
 ```
 
