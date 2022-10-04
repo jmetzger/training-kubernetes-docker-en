@@ -1,7 +1,15 @@
 # Container - Image - Delete - Kill
 
 ```
-docker stop ubuntu-container 
+# stop it 
+docker stop my_xenial 
+docker container ls -a 
+
+
+# start it 
+docker start my_xenial 
+docker container ls 
+
 # Kill it if it cannot be stopped -be careful
 docker kill ubuntu-container
 
