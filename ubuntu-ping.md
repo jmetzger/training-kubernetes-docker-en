@@ -22,7 +22,7 @@ docker images
 docker run -d -t --name container-ubuntu myubuntu
 docker container ls
 # enter the container by name myubuntu 
-docker exec -it myubuntu bash
+docker exec -it container-ubuntu bash
 ls -la
 ``` 
  
