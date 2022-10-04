@@ -24,7 +24,7 @@ echo hello-docker
 ## Step 4:
 # docker build -t dockertrainereu/<dein-name>-hello-docker . 
 # Example
-docker build -t dockertrainereu/jm-hello-docker .
+docker build -t dockertrainereu/<dein-name>-hello-docker .
 docker images
 docker run dockertrainereu/<dein-name>-hello-docker 
 
