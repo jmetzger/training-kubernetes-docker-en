@@ -19,7 +19,7 @@ systemctl stop snap.docker.dockerd.service
 systemctl status snap.docker.dockerd.service
 systemctl start snap.docker.dockerd.service 
 
-# wird der docker-dienst beim nächsten reboot oder starten des Server gestartet ? 
+# is the docker service being started on next book (autostart in windows) 
 systemctl is-enabled snap.docker.dockerd.service
 
 ```
