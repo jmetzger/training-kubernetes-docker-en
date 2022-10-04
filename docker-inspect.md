@@ -1,6 +1,6 @@
-# Docker-Container analysieren
+# Docker-Container analyzing
 
 ```
-docker run -t -d --name mein_container ubuntu:latest
-docker inspect mein_container # mein_container = container name 
+docker run -t -d --name my_container ubuntu:latest
+docker inspect my_container # my_container = container name 
 ```
