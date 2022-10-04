@@ -11,19 +11,18 @@ docker start my_xenial
 docker container ls 
 
 # Kill it if it cannot be stopped -be careful
-docker kill ubuntu-container
+docker kill my_xenial
 
-# Get nur, wenn der Container nicht mehr läuft 
+# Works only, if container is not running
 docker rm ubuntu-container
 
-# oder alternative
+# remove container when running (force) 
 docker rm -f ubuntu-container 
 
-
-# image löschen 
+# delete image
 docker rmi ubuntu:xenial 
 
-# falls Container noch vorhanden aber nicht laufend 
+# if container is present but not running
 docker rmi -f ubuntu:xenial 
 
 ```
