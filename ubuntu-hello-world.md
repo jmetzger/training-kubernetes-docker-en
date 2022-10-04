@@ -45,7 +45,7 @@ docker push dockertrainereu/<your-name>-hello-docker
 https://hub.docker.com/u/dockertrainereu 
 ```
 
-## Advanced Version 
+## Loop Version (runs endlessly)  
 
 ```
 ## Schritt 1:
@@ -73,19 +73,8 @@ done
 ## Schritt 4:
 # docker build -t dockertrainereu/<dein-name>-hello-docker . 
 # Beispiel
-docker build -t dockertrainereu/jm-hello-docker .
+docker build -t my_echo .
 docker images
-docker run -d -t --name hello dockertrainereu/<dein-name>-hello-docker 
+docker run -d -t --name hello my_echo 
 docker exec -it hello sh 
-
-docker login
-user: dockertrainereu 
-pass: --bekommt ihr vom trainer--
-
-# docker push dockertrainereu/<dein-name>-hello-docker 
-# z.B. 
-docker push dockertrainereu/jm-hello-docker
-
-# und wir schauen online, ob wir das dort finden
-
 ```
