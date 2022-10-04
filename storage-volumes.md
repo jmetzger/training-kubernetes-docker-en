@@ -19,9 +19,11 @@ exit
 docker container ls -a 
 
 # have a look in the volume. 
+# find out where the folder is saved on filesystem 
+docker inspect container test-vol 
 
 # create new container and check for /test_data/README 
-docker run -it --name=container-test-vol2 --mount target=/test_data,source=test-vol ubuntu bash
+docker run -it --name=container-test-vol --mount target=/test_data2,source=test-vol ubuntu bash
 ab45# ls -la /test_data/README 
 ```
 
