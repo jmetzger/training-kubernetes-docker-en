@@ -34,8 +34,8 @@ cd ../
 #pwd 
 #~/bautest
 docker-compose up -d 
-# wird image gebaut und container gestartet 
+# image is being created and container started  
 
-# Bei Veränderung vom Dockerfile, muss man den Parameter --build mitangeben 
+# When Dockerfile changes you have to use the parameter --build
 docker-compose up -d --build 
 ```
