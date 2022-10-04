@@ -2,7 +2,7 @@
 
 ## Agenda 
 
-  1. Docker-Basic 
+  1. Docker-Basics 
      * [Overview Architecture](architektur.md)
      * [What is a container ?](container.md)
      * [What are container images](container-images.md) 
