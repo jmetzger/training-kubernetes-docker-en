@@ -13,7 +13,7 @@ docker images
 
 # exec in /into container
 docker exec -it my_xenial bash 
-docker exec -it my_xenial cat /etc/os-release
+docker exec my_xenial cat /etc/os-release
 # 
 
 ```
