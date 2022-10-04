@@ -1,12 +1,12 @@
 # Network 
 
-## Übersicht
+## Overview
 
 ```
 3 Typen 
 
 o none
-o bridge (Standard-Netzwerk) 
+o bridge (Standard-network) 
 o host 
 
 ## Additionally possible to install
@@ -15,7 +15,7 @@ o overlay (needed for multi-node)
 ```
 
 
-## Kommandos 
+## command
 
 ```
 # Netzwerk anzeigen 
@@ -30,7 +30,7 @@ docker inspect ubuntu-container
 
 ```
 
-## Eigenes Netz erstellen 
+## create network 
 
 ```
 docker network create -d bridge test_net 
@@ -47,7 +47,7 @@ docker inspect nginx_no_net
 
 ```
 
-## Netzwerk rausnehmen / hinzufügen 
+## delete network /  
 
 ```
 docker network disconnect none nginx_no_net
