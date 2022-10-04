@@ -13,7 +13,7 @@ RUN apt-get update; apt-get install -y inetutils-ping
 CMD ["/bin/bash"]
 ```
 
-
+```
 docker build -t myubuntu .
 docker images
 # -t is needed to run in the background 
