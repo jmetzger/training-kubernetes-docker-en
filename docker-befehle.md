@@ -1,20 +1,20 @@
 # Übersicht docker befehle 
 
 ```
-# docker hub durchsuchen
+# search docker hub 
 docker search hello-world
 
 docker run <image>
-# z.b. // Zieht das image aus docker hub 
+# z.b. // gets image from docker hub 
 # hub.docker.com 
 docker run hello-world
 
 # images die lokal vorhanden 
 docker images 
 
-# container (laufende) 
+# container (running) 
 docker container ls 
-# container (vorhanden, aber beendet)
+# container (present, but exited)
 docker container ls -a 
 
 # z.b hilfe für docker run 
