@@ -1,7 +1,7 @@
 # Dockerfile 
 
- * Textdatei, die Linux - Kommandos enthält
-   * die man auch auf der Kommandozeile ausführen könnte 
-   * Diese erledigen alle Aufgaben, die nötig sind, um ein Image zusammenzustellen
-   * mit docker build wird dieses image erstellt 
+ * Textfile, that holds Linux commands 
+   * you could also execute on the command line 
+   * these complete tasks, that are necessary, to assemble an image 
+   * the images are created with docker build
    
