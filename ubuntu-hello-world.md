@@ -22,11 +22,11 @@ nano hello.sh
 echo hello-docker
 
 ## Step 4:
-# docker build -t dockertrainereu/<dein-name>-hello-docker . 
+# docker build -t dockertrainereu/<your-name>-hello-docker . 
 # Example
-docker build -t dockertrainereu/<dein-name>-hello-docker .
+docker build -t dockertrainereu/<your-name>-hello-docker .
 docker images
-docker run dockertrainereu/<dein-name>-hello-docker 
+docker run dockertrainereu/<your-name>-hello-docker 
 
 ```
 
