@@ -1,8 +1,8 @@
 # Container vs. VM 
 
 ```
-VM's virtualisieren Hardware
-Container virtualisieren Betriebssystem 
+VM's virtualized hardware
+containers are virtualized operating system  
 
 
 ```
