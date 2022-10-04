@@ -1,16 +1,16 @@
 # Docker logs (Nginx) 
 
-## Allgemein 
+## in general 
 ```
-# Erstmal nginx starten und container-id wird ausgegeben 
+# start nginx and container-id will be shown  
 docker run -d nginx 
 a234
-docker logs a234 # a234 sind die ersten 4 Ziffern der Container ID 
+docker logs a234 # a234 are first 4 chars of container id 
 ```
 
-## Laufende Log-Ausgabe 
+## ongoing Log-output 
 
 ```
 docker logs -f a234 
-# Abbrechen CTRL + c 
+# stop ->  CTRL + c 
 ```
