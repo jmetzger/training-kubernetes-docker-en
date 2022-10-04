@@ -1,17 +1,19 @@
 # Container
 
 ```
-- vereint in sich Software
-- Bibliotheken 
-- Tools 
-- Konfigurationsdateien 
-- keinen eigenen Kernel 
-- gut zum Ausführen von Anwendungen auf verschiedenen Umgebungen 
+contains all of these:
+- software
+- libraries Software
+- tools 
+- configuration data 
+- no own kernel
+- good for executing applications in different enviroments
 
-- Container sind entkoppelt
-- Container sind voneinander unabhängig 
-- Können über wohldefinierte Kommunikationskanäle untereinander Informationen austauschen
+benefits:
+- Container are decoupled (entkoppelt)
+- Container are idependent from each other
+- They are able to communicate through a well defined interface to exchange information
 
-- Durch Entkopplung von Containern:
-  o Unverträglichkeiten von Bibliotheken, Tools oder Datenbank können umgangen werden, wenn diese von den Applikationen in unterschiedlichen Versionen benötigt werden.
+by defaucoupling containers:
+- solve problems with libraries, tools, databases (different applications needing different version)
 ```
