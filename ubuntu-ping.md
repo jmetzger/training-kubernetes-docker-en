@@ -1,6 +1,8 @@
 # Ubuntu mit ping 
 
 ```
+# create a build folder 
+cd 
 mkdir myubuntu 
 cd myubuntu/
 
@@ -14,16 +16,17 @@ CMD ["/bin/bash"]
 
 docker build -t myubuntu .
 docker images
-# -t wird benötigt, damit bash WEITER im Hintergrund im läuft.
-# auch mit -d (ohne -t) wird die bash ausgeführt, aber "das Terminal" dann direkt beendet 
-# -> container läuft dann nicht mehr 
+# -t is needed to run in the background 
+# also with -d (ohne -t) the bash is being executed, but  "the terminal" is stopped 
+# -> the container stops to run.
 docker run -d -t --name container-ubuntu myubuntu
 docker container ls
-# in den container reingehen mit dem namen des Containers: myubuntu 
+# enter the container by name myubuntu 
 docker exec -it myubuntu bash
 ls -la
+``` 
  
- 
+``` 
 # Zweiten Container starten
 docker run -d -t --name container-ubuntu2 myubuntu 
 
