@@ -2,18 +2,18 @@
 
 ## Agenda 
 
-  1. Docker-Grundlagen 
-     * [Übersicht Architektur](architektur.md)
-     * [Was ist ein Container ?](container.md)
-     * [Was sind container images](container-images.md) 
-     * [Container vs. Virtuelle Maschine](container-vs-vm.md)
-     * [Was ist ein Dockerfile](dockerfile.md) 
+  1. Docker-Basic 
+     * [Overview Architecture](architektur.md)
+     * [What is a container ?](container.md)
+     * [What are container images](container-images.md) 
+     * [Container vs. Virtual machines](container-vs-vm.md)
+     * [What is a Dockerfile](dockerfile.md) 
   
   1. Docker-Installation
-     * [Installation Docker unter Ubuntu mit snap](install-ubuntu-snap.md)
+     * [Installation Docker under Ubuntu with snap](install-ubuntu-snap.md)
   
-  1. Docker-Befehle 
-     * [Die wichtigsten Befehle](docker-befehle.md)
+  1. Docker-Commands 
+     * [The most important commands](docker-befehle.md)
      * [Logs anschauen - docker logs - mit Beispiel nginx](docker-logs-nginx.md)
      * [docker run](docker-run.md)
      * [Docker container/image stoppen/löschen](container-image-delete.md)
