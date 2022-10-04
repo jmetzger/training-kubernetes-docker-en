@@ -18,6 +18,8 @@ exit
 # stops container 
 docker container ls -a 
 
+# have a look in the volume. 
+
 # create new container and check for /test_data/README 
 docker run -it --name=container-test-vol2 --mount target=/test_data,source=test-vol ubuntu bash
 ab45# ls -la /test_data/README 
