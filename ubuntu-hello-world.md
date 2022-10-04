@@ -67,6 +67,7 @@ nano hello.sh
 while true
 do 
   echo hello-docker
+  sleep 5
 done 
 
 ## Schritt 4:
