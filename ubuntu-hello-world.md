@@ -3,12 +3,12 @@
 ## Simple Version 
 
 ```
-## Schritt 1:
+## Step 1:
 cd 
 mkdir Hello-World 
 cd Hello-World
 
-## Schritt 2:
+## Step 2:
 # nano Dockerfile
 FROM ubuntu:latest 
 
@@ -16,18 +16,22 @@ COPY hello.sh .
 RUN chmod u+x hello.sh
 CMD ["/hello.sh"]
 
-## Schritt 3:
+## Step 3:
 nano hello.sh 
 #!/bin/bash
 echo hello-docker
 
-## Schritt 4:
+## Step 4:
 # docker build -t dockertrainereu/<dein-name>-hello-docker . 
-# Beispiel
+# Example
 docker build -t dockertrainereu/jm-hello-docker .
 docker images
 docker run dockertrainereu/<dein-name>-hello-docker 
 
+```
+
+
+```
 docker login
 user: dockertrainereu 
 pass: --bekommt ihr vom trainer--
