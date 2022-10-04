@@ -1,7 +1,7 @@
-# Ist docker-compose installiert 
+# ist docker-compose installed
 
 ```
-# besser. mehr infos
+# better. mehr infos
 docker-compose version 
 docker-compose --version 
 
