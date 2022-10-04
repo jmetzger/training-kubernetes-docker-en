@@ -3,7 +3,7 @@
 ## Overview
 
 ```
-3 Typen 
+3 types 
 
 o none
 o bridge (Standard-network) 
@@ -18,14 +18,14 @@ o overlay (needed for multi-node)
 ## command
 
 ```
-# Netzwerk anzeigen 
+# show networks 
 docker network ls 
 
-# bridge netzwerk anschauen 
-# Zeigt auch ip der docker container an  
+# show bridged network  
+# also show the ips of the container  
 docker inspect bridge
 
-# im container sehen wir es auch
+# network from the container perspective 
 docker inspect ubuntu-container 
 
 ```
