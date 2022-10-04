@@ -14,10 +14,10 @@ docker container ls
 docker kill my_xenial
 
 # Works only, if container is not running
-docker rm ubuntu-container
+docker rm my_xenial
 
 # remove container when running (force) 
-docker rm -f ubuntu-container 
+docker rm -f my_xenial  
 
 # delete image
 docker rmi ubuntu:xenial 
