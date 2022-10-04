@@ -70,8 +70,7 @@ do
   sleep 5
 done 
 
-## Schritt 4:
-# docker build -t dockertrainereu/<dein-name>-hello-docker . 
+## Schritt 4: 
 # Beispiel
 docker build -t my_echo .
 docker images
