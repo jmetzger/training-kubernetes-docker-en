@@ -1,4 +1,4 @@
-# Use curl from within a pod 
+# Use wget from within a pod 
 
 ## Situation 
 
