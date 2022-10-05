@@ -74,6 +74,9 @@
      * [Arbeiten mit der Registry](microk8s/registry.md)
      * [Installation Kubernetes Dashboard](/microk8s/dashboard.md) 
 
+  1. Kubernetes - doks (digitaloean) (Installation and Management) 
+     * [Setup Cluster with kubectl client](/digitalocean/doks-install-kubectl.md)
+
   1. Kubernetes Praxis API-Objekte 
      * [Das Tool kubectl (Devs/Ops) - Spickzettel](/kubectl/spickzettel.md)
      * [kubectl example with run](/kubectl/run-with-example.md)
