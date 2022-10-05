@@ -81,7 +81,7 @@ kubectl exec -it nginx -- bash
 
 ```
 
-## Arbeiten mit namespaces 
+## Working with namespaces 
 
 ```
 # Welche namespaces auf dem System 
@@ -91,10 +91,17 @@ kubectl get namespaces
 # wenn man kommandos aufruft 
 kubectl get deployments 
 
+# set a new default namespace 
+kubectl config set-context --current --namespace=<yourname>
+
+
 # Möchte ich z.B. deployment vom kube-system (installation) aufrufen, 
 # kann ich den namespace angeben
 kubectl get deployments --namespace=kube-system 
 kubectl get deployments -n kube-system 
+
+
+
 ```
 
 
