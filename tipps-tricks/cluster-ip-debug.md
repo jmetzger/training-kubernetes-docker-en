@@ -1,14 +1,14 @@
-# Curl mit Hilfe eines Containers verwenden
+# Use curl from within a pod 
 
 ## Situation 
 
-  * Kein Zugriff auf die Nodes, zum Testen von Verbindungen zu Pods und Services über die ClusterIP 
+  * No access to the nodes, to test the connection to pods and services
 
-## Lösung 
+## Solution  
 
 ```
-# Wir starten eine Busybox und fragen per wget und port ab
-# busytester ist der name 
+# using busybox (swiss army knife of embedded)
+# busytester is the name  
 # long version 
 kubectl run -it --rm --image=busybox busytester 
 # wget <pod-ip-des-ziels> 
