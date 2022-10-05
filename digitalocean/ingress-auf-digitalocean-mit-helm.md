@@ -2,12 +2,13 @@
 
 ## Basics 
 
-  * Das Verfahren funktioniert auch so auf anderen Plattformen, wenn helm verwendet wird und noch kein IngressController vorhanden
-  * Ist kein IngressController vorhanden, werden die Ingress-Objekte zwar angelegt, es funktioniert aber nicht. 
+  * Works on other platforms as, if you do not have ingress controller installed
+  * A bit more complicated, if you have the choice, use process/plugin from installer, e.g. microk8s enable ingress
+
 
 ## Prerequisites 
 
-  * kubectl muss eingerichtet sein 
+  * kubectl needs to be installed and configured
 
 ## Walkthrough (Setup Ingress Controller) 
 
@@ -31,7 +32,6 @@ nginx-ingress-ingress-nginx-controller   LoadBalancer   10.245.78.34   157.245.2
 # Now setup wildcard - domain for training purpose 
 # inwx.com
 *.lab1.t3isp.de A 157.245.20.222 
-
 
 ```
 
