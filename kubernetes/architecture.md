@@ -50,7 +50,7 @@
 
   * pods are the smalles usable unit, that can be created and managed 
   * a pod (=group) is a group of one or more containers
-    * they usage mutual storage and network ressources   
+    * the use mutual storage and network ressources   
     * they are always on the same physical/virtual server  
     
 ## Control Plane Node (former: master) - components 
