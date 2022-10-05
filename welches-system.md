@@ -5,10 +5,10 @@
 ## General 
 
 ```
-kubernetes itself has not convenient way of doing specific stuff like 
+kubernetes itself has no convenient way of doing specific stuff like 
 creating the kubernetes cluster.
 
-So there are other tools/distri around helping you with that.
+So there are other tools/distributions around helping you with that.
 
 ```
 
