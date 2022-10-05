@@ -5,7 +5,7 @@ cd
 cd manifests
 mkdir 02-rs 
 cd 02-rs 
-vi rs.yml
+nano rs.yml
 ```
 
 ```
