@@ -1,6 +1,14 @@
 # Example Service 
 
 ```
+cd 
+cd manifests 
+mkdir 04-svc 
+cd 04-svc 
+nano svc.yml 
+```
+
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -33,9 +41,13 @@ spec:
     protocol: TCP
   selector:
     run: my-nginx
-        
-        
+            
 ```        
+
+```
+kubectl apply -f .
+```
+
 
 ## Ref.
 
