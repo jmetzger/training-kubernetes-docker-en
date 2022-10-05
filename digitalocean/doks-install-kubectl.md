@@ -26,4 +26,15 @@ snap install --classic kubectl
 kubectl completion bash > /etc/bash_completion.d/kubectl
 # relogin for the config to take effect
 su - 
+
+### Get the configuration from the cluster 
+# in the kubernetes interface on digitalocean download 
+# Dashboard of cluster in digitalocean -> window (configuration) -> download config 
+
+## on client-machine as root 
+### Save it in ~/.kube/config
+cd 
+mkdir .kube 
+cd .kube 
+scp 11trainingdo@10.135.0.7:/home/11trainingdo/config .
 ```
