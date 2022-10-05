@@ -16,7 +16,7 @@
     * scaling of the applications 
     * rollout of new updates.
 
-#### componnents of the master 
+#### components of the master 
 
 ##### etcd
 
