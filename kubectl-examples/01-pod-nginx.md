@@ -3,7 +3,12 @@
 ## Walkthrough 
 
 ```
-# vi nginx-static.yml 
+# cd 
+# mkdir -p manifests
+# cd manifests
+# mkdir web
+# cd web 
+# nano nginx-static.yml 
 
 apiVersion: v1
 kind: Pod
