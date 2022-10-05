@@ -6,8 +6,7 @@
 cd 
 cd manifests 
 mkdir 04-svc 
-cd 04-svc 
-nano svc.yml 
+cd 04-svc  
 ```
 
 ## Version 1: all objects in one file (not recommended) 
