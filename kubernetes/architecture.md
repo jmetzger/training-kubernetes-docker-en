@@ -64,8 +64,8 @@
 ### kubelet
 
 ```
-Node Agent that runs on every node (worker) 
-Er stellt sicher, dass Container in einem Pod ausgeführt werden.
+Node Agent that runs on every node (worker)
+He is in charge, that container in a pod are executed 
 ```
 
 ### Kube-proxy 
