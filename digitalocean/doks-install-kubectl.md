@@ -37,4 +37,8 @@ cd
 mkdir .kube 
 cd .kube 
 scp 11trainingdo@10.135.0.7:/home/11trainingdo/config .
+
+## test the connection - should have a proper connection now 
+kubectl cluster-info 
+
 ```
