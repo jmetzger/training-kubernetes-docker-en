@@ -7,7 +7,7 @@
 # check connection
 kubectl cluster-info 
 
-# Welche api-resources gibt es ?
+# Which api-resources are available ?
 kubectl api-resources 
 
 # Hilfe zu object und eigenschaften bekommen
