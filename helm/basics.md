@@ -1,19 +1,19 @@
-# Helm - Grundlagen
+# Helm - Basics
 
-## Wo ? 
+## Where ? 
 
 ```
 artifacts helm 
 https://artifacthub.io/
 ```
-## Komponenten 
+## components  
 
 ```
-Chart - beeinhaltet Beschreibung und Komponenten 
+Chart - contains description and components 
 tar.gz - Format 
-oder Verzeichnis 
+or a folder
 
-Wenn wir ein Chart ausführen wird eine Release erstellen 
+when executen a chart a release will be created.
 (parallel: image -> container, analog: chart -> release 
 ```
 
