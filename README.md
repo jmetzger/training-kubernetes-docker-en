@@ -130,6 +130,8 @@
      * [configmap](06-configmap.md)
      * [Working with secrets](uebung-secrets.md)
    
+  1. Helm (Kubernetes Package Manager) 
+     * [Example with kubernetes package manager](/helm/example.md)
   
   1. Kubernetes - Tipps & Tricks 
      * [Assigning Pods to Nodes](/tipps-tricks/pods-2-nodes.md) 
