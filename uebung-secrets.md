@@ -1,6 +1,6 @@
-# ENV-Variablen in Container aus Secrets hineinbekommen
+# ENV-Variablen in Container from secrets
 
-## Übung 1 - ENV Variablen aus Secrets setzen 
+## Exercise 1 - set ENV variables from Secrets 
 
 ```
 # Schritt 1: Secret anlegen.
