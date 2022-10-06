@@ -82,7 +82,11 @@ kubectl apply -f 01-pv.yml
 kubectl get pv 
 ```
 
-## Create Persistent Volume Claim 
+## Persistent Storage-Step 1: Create Persistent Volume Claim 
+
+```
+nano 02-pvs.yml
+```
 
 ```
 # vi 02-pvs.yml 
@@ -104,6 +108,7 @@ spec:
 
 ```
 kubectl apply -f 02-pvs.yml
+kubectl get pvc
 ```
 
 ```
