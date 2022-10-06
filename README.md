@@ -125,6 +125,7 @@
 
   1. Kubernetes - Shared Volumes 
      * [Shared Volumes with nfs](shared-volumes/nfs.md)
+     * [Shared Volumes with nfs/multipe](/shared-volumes/nfs-multiple.md)
 
   1. Kubernetes - Backups 
      + [Kubernetes Aware Cloud Backup - kasten.io](/backups/cluster-backup-kasten-io.md)
