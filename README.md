@@ -138,6 +138,9 @@
      * [Übung Liveness-Probe](/probes/uebung-liveness.md)
      * [Funktionsweise Readiness-Probe vs. Liveness-Probe](/probes/readiness.md) 
  
+  1. configmaps / secrets 
+     * [Working with secrets](uebung-secrets.md)
+  
   1. Kubernetes - Tipps & Tricks 
      * [Assigning Pods to Nodes](/tipps-tricks/pods-2-nodes.md) 
      * [Kubernetes debugging ClusterIP/PodIP](/tipps-tricks/cluster-ip-debug.md)
@@ -150,16 +153,14 @@
      * [Helpful to learn - Kubernetes](https://kubernetes.io/docs/tasks/)
      * [Environment to learn](https://killercoda.com/killer-shell-cks)
      * [Youtube Channel](https://www.youtube.com/watch?v=01qcYSck1c4)
+     * [Defining defaultBackend for IngressController](https://dev.to/kenmoini/custom-kubernetes-ingress-default-backend-and-error-pages-3alh)
 
   1. Kubernetes -Wann / Wann nicht 
      * [Kubernetes Wann / Wann nicht](kubernetes/wann-kubernetes-wann-nicht.md)
 
   1. Kubernetes - Hardening 
      * [Kubernetes Tipps Hardening](kubernetes-security/tipps-hardening.md)
-
-  1. Kubernetes - Documentation 
-     * [Defining defaultBackend for IngressController](https://dev.to/kenmoini/custom-kubernetes-ingress-default-backend-and-error-pages-3alh)
-
+    
   1. Linux und Docker Tipps & Tricks allgemein 
      * [Auf ubuntu root-benutzer werden](sudo.md)
      * [IP - Adresse abfragen](ip-a.md)
