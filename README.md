@@ -128,7 +128,7 @@
  
   1. configmaps / secrets 
      * [configmap](/kubectl-examples/06-configmap.md)
-     * [configmap-mysql-realworld example](07-configmap-mysql-realworld.md)
+     * [configmap-mysql-realworld example](/kubectl-examples/07-configmap-mysql-realworld.md)
      * [Working with secrets](uebung-secrets.md)
    
   1. Helm (Kubernetes Package Manager) 
