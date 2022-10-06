@@ -127,7 +127,7 @@
      * [Funktionsweise Readiness-Probe vs. Liveness-Probe](/probes/readiness.md) 
  
   1. configmaps / secrets 
-     * [configmap](06-configmap.md)
+     * [configmap](/kubectl-examples/06-configmap.md)
      * [Working with secrets](uebung-secrets.md)
    
   1. Helm (Kubernetes Package Manager) 
