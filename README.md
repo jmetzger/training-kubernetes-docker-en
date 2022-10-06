@@ -131,6 +131,7 @@
      * [Working with secrets](uebung-secrets.md)
    
   1. Helm (Kubernetes Package Manager) 
+     * [Basics](/helm/basics.md)
      * [Example with kubernetes package manager](/helm/example.md)
   
   1. Kubernetes - Tipps & Tricks 
