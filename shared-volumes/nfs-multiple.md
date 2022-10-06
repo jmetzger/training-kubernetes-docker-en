@@ -111,6 +111,8 @@ kubectl apply -f 02-pvs.yml
 kubectl get pvc
 ```
 
+## Persistent Storage-Step 3: Deployment 
+
 ```
 # deployment including mount 
 # vi 03-deploy.yml 
