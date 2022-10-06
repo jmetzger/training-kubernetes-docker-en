@@ -154,6 +154,7 @@ kubectl apply -f 03-deploy.yml
 
 ```
 
+## Persistent Storage Step 4: service 
 
 ```
 # now testing it with a service 
