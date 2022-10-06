@@ -25,6 +25,11 @@ kubectl get cm -o yaml
 ```
 
 ## Step 2: Example as file  
+
+```
+nano 02-pod.yml 
+```
+
 ```
 kind: Pod 
 apiVersion: v1 
