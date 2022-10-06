@@ -152,6 +152,9 @@
   1. Kubernetes - Hardening 
      * [Kubernetes Tipps Hardening](kubernetes-security/tipps-hardening.md)
 
+  1. Kubernetes - Documentation 
+     * [Defining defaultBackend for IngressController](https://dev.to/kenmoini/custom-kubernetes-ingress-default-backend-and-error-pages-3alh)
+
   1. Linux und Docker Tipps & Tricks allgemein 
      * [Auf ubuntu root-benutzer werden](sudo.md)
      * [IP - Adresse abfragen](ip-a.md)
