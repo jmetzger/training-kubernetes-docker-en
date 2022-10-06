@@ -1,6 +1,6 @@
 # ConfigMap Example 
 
-## Schritt 1: configmap vorbereiten 
+## Step 1: configmap preparation  
 ```
 ## 01-configmap.yml
 kind: ConfigMap 
@@ -68,7 +68,7 @@ kubectl exec -it pod-mit-configmap --  bash
 # ls -la /etc/config 
 ```
 
-## Schritt 3: Beispiel. ConfigMap als env-variablen 
+## Step 3: Beispiel. ConfigMap als env-variablen 
 
 ```
 # 03-pod-mit-env.yml 
