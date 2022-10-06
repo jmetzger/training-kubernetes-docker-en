@@ -108,18 +108,6 @@
      * [Callico - nginx example](/kubernetes-network/callico/00-simple-example.md)
      * [Callico - client-backend-ui-example](/kubernetes-network/callico/01-example-with-services.md)
    
-  1. kubectl 
-     * [Start pod (container with run && examples)](/kubectl/run-with-example.md)
-     * [Bash completion for kubectl](/kubectl/bash-completion.md)
-     * [kubectl Spickzettel](/kubectl/spickzettel.md)
-     * [Tipps&Tricks zu Deploymnent - Rollout](/kubectl/rollout.md) 
-     
-  1. kubectl - manifest - examples 
-     * [02 Pod nginx mit Port und IP innerhalb des Clusters](/kubectl-examples/02-pod-nginx-exposed.md)
-     * [03b Example with service and nginx](/kubectl-examples/03b-service.md)
-     * [04 Ingress mit einfachem Beispiel](/kubectl-examples/04-ingress-nginx.md)
-     * [05 Ingress mit Permanent Redirect](/kubectl-examples/05-ingress-permanent-redirect.md)
-
   1. Kubernetes - Monitoring (microk8s und vanilla) 
      * [metrics-server aktivieren (microk8s und vanilla)](/microk8s/metrics-server.md)
 
