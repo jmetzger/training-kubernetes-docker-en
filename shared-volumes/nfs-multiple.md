@@ -41,12 +41,17 @@ ls -la /mnt/nfs
 umount /mnt/nfs
 ```
 
-## Setup PersistentVolume and PersistentVolumeClaim in cluster
+## Persistent Storage-Step 1: Setup PersistentVolume in cluster
 
 ```
-# mkdir -p nfs; cd nfs
-# vi 01-pv.yml 
-# Important user  
+cd
+cd manifests 
+mkdir -p nfs 
+cd nfs 
+nano 01-pv.yml 
+```
+
+```
 apiVersion: v1
 kind: PersistentVolume
 metadata:
@@ -67,15 +72,17 @@ spec:
   nfs:
     # NFS server's definition
     path: /var/nfs/tln<nr>/nginx
-    server: 192.168.56.106
+    server: 10.135.0.14
     readOnly: false
   storageClassName: ""
-
 ```
 
 ```
 kubectl apply -f 01-pv.yml 
+kubectl get pv 
 ```
+
+## Create Persistent Volume Claim 
 
 ```
 # vi 02-pvs.yml 
