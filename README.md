@@ -134,6 +134,10 @@
      * [kubectl drain/uncordon](/kubectl/uncordon-drain.md)
      * [Alte manifeste konvertieren mit convert plugin](/kubectl/convert-plugin.md)
 
+  1. Kubernetes Probes (Liveness and Readiness) 
+     * [Übung Liveness-Probe](/probes/uebung-liveness.md)
+     * [Funktionsweise Readiness-Probe vs. Liveness-Probe](/probes/readiness.md) 
+ 
   1. Kubernetes - Tipps & Tricks 
      * [Assigning Pods to Nodes](/tipps-tricks/pods-2-nodes.md) 
      * [Kubernetes debugging ClusterIP/PodIP](/tipps-tricks/cluster-ip-debug.md)
