@@ -9,14 +9,14 @@ kubectl expose --namespace=policy-demo<tln> deployment nginx --port=80
 kubectl run --namespace=policy-demo<tln> access --rm -ti --image busybox /bin/sh
 ```
 ```
-# innerhalb der shell 
+# within the shell 
 wget -q nginx -O -
 ```
 
 
 ```
-# Schritt 2: Policy festlegen, dass kein Ingress-Traffic erlaubt
-# in diesem namespace: policy-demo 
+# Schritt 2: create policy, that no ingress traffic is allowed at all 
+# in this namespace: policy-demo 
 # mkdir network; cd network 
 # vi 01-policy.yml
 kind: NetworkPolicy
@@ -35,18 +35,18 @@ kubectl apply -f 01-policy.yml
 ```
 
 ```
-# lassen einen 2. pod laufen mit dem auf den nginx zugreifen 
+# run a  2. pod who wants to access nginx 
 kubectl run --namespace=policy-demo access --rm -ti --image busybox /bin/sh
 ```
 
 ```
-# innerhalb der shell 
-# kein Zugriff möglich
+# within the shell 
+# no access possible
 wget -q nginx -O -
 ```
 
 ```
-# Schritt 3: Zugriff erlauben von pods mit dem Label run=access 
+# Schritt 3: Allow access for pods having the label run=access
 # 02-allow.yml
 kind: NetworkPolicy
 apiVersion: networking.k8s.io/v1
@@ -70,8 +70,8 @@ kubectl apply -f 02-allow.yml
 ```
 
 ```
-# lassen einen 2. pod laufen mit dem auf den nginx zugreifen 
-# pod hat durch run -> access automatisch das label run:access zugewiesen 
+# run a 2. pod and access nginx  
+# using run + name: access for pod -> automatically has label run:access 
 kubectl run --namespace=policy-demo<tln> access --rm -ti --image busybox /bin/sh
 ```
 
