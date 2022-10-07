@@ -1,11 +1,13 @@
 # Options for helm -> kustomize bundle 
 
-## Option 1: helm chart entpacken und das helm chart patchen 
+## Option 1: unpack helm chart and patch it 
 
 ```
-helm add repo bitnami .... 
-helm template --base-directory=base bitnami/mysql
+helm add repo bitnami https://charts.bitnami.com/bitnami 
+cd base 
+helm template my-release bitnami/mysql > all-resources.yaml 
 # patchen kustomize 
+cd .. 
 kustomize build overlay/prod 
 kubectl apply -k overlay/prod 
 ```
