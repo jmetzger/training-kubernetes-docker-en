@@ -166,6 +166,7 @@
   1. Kubernetes - Hardening 
      * [Kubernetes Tipps Hardening](kubernetes-security/tipps-hardening.md)
      * [Kubernetes run as non root](security/uebung-runasuser.md)
+     * [Kubernetes find unprivileged images](security/find-unprivileged-containers.md)
     
   1. Kubernetes Deployment Scenarios 
      * [Deployment green/blue,canary,rolling update](/kubernetes/deployment-strategies-en.md)
