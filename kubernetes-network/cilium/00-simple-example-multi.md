@@ -36,7 +36,7 @@ kubectl apply -f 01-policy.yml
 
 ```
 # run a  2. pod who wants to access nginx 
-kubectl run --namespace=policy-demo access --rm -ti --image busybox /bin/sh
+kubectl run --namespace=policy-demo<tln> access --rm -ti --image busybox /bin/sh
 ```
 
 ```
