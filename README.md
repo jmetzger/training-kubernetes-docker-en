@@ -65,7 +65,7 @@
      * [Welches System ? (minikube, micro8ks etc.)](welches-system.md)
      * [Installation - Welche Komponenten from scratch](/kubernetes/installation-components-overview.md)
 
-  1. Kubernetes - microk8s (Installation und Management) 
+  1. Kubernetes - Installer - microk8s (Installation und Management) 
      * [Installation Ubuntu - snap](microk8s/installation-ubuntu-snap.md)
      * [Patch to next major release - cluster](microk8s/patch-next-major.md)
      * [Remote-Verbindung zu Kubernetes (microk8s) einrichten](microk8s/connect-from-remote.md)
@@ -76,6 +76,9 @@
 
   1. Kubernetes - doks (digitaloean) (Installation and Management) 
      * [Setup Cluster with kubectl client](/digitalocean/doks-install-kubectl.md)
+
+  1. Kubernetes - Installer - Rancher 
+     * [Installation on digitalocean](/rancher/setup-on-digitalocean.md) 
 
   1. Kubernetes Praxis API-Objekte 
      * [Das Tool kubectl (Devs/Ops) - Cheatsheet](/kubectl/spickzettel.md)
