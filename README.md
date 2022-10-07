@@ -114,7 +114,9 @@
    
   1. Kubernetes - Monitoring (microk8s und vanilla) 
      * [metrics-server aktivieren (microk8s und vanilla)](/microk8s/metrics-server.md)
-
+     * [prometheus](/monitoring/prometheus)
+     * [checkmk plugin](https://docs.checkmk.com/latest/de/monitoring_kubernetes.html)
+    
   1. Kubernetes - Shared Volumes 
      * [Shared Volumes with nfs](shared-volumes/nfs.md)
      * [Shared Volumes with nfs/multipe](/shared-volumes/nfs-multiple.md)
