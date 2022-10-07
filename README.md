@@ -141,6 +141,7 @@
   
   1. Kustomize 
      * [Kustomize Exercise/Example](/kustomize/02-overlay-example.md) 
+     * [Marriage between helm and kustomize](/kustomize/helm-kustomize-options.md)
   
   1. Kubernetes - Tipps & Tricks 
      * [Assigning Pods to Nodes](/tipps-tricks/pods-2-nodes.md) 
