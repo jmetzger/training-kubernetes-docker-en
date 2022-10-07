@@ -31,7 +31,7 @@ metadata:
 spec:
   containers:
   - name: liveness
-    image: k8s.gcr.io/busybox
+    image: busybox
     args:
     - /bin/sh
     - -c
