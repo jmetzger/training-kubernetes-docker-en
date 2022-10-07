@@ -68,11 +68,11 @@ data:
     </br>
     <h1>Hi! This is a configmap Index file Version 2 </h1>
     </html>
-apiVersion: apps/v1
 ```
 
 ```
 # vi 04-deployment-v2.yml 
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deploy-v2
