@@ -48,7 +48,8 @@ spec:
 
 ```
 # See how it looks like 
-kubectl kustomize ./base
+# only used, if you want to test the functionality 
+# kubectl kustomize ./base
 
 ```
 
