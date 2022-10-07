@@ -17,19 +17,19 @@
   * Calico 
   * Cilium 
   
-## Flannel
+## Flanel
 
 ### Overlay - Network 
 
   * virtuelles Netzwerk was sich oben drüber und eigentlich auf Netzwerkebene nicht existiert
   * VXLAN 
 
-### Vorteile 
+### Advantage
 
   * good and easy start
   * reduced to only one binary flanneld 
 
-### Nachteile 
+### Disadvantages 
 
   * no network policies allowed 
   * hard to debug, because no classical network (virtual), cannot use classic network tools
