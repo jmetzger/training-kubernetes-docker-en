@@ -4,7 +4,7 @@
 
 ```
 A small group of the user base will see the new application 
-(e.g. 1000 out of 100.000), all the others still the old version
+(e.g. 1000 out of 100.000), all the others will still see the old version
 
 From: a canary was used to test if the air was good in the mine 
 (like a test balloon) 
