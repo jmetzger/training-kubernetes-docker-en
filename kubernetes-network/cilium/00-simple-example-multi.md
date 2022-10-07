@@ -23,7 +23,7 @@ kind: NetworkPolicy
 apiVersion: networking.k8s.io/v1
 metadata:
   name: default-deny
-  namespace: policy-demo-<tln>
+  namespace: policy-demo<tln>
 spec:
   podSelector:
     matchLabels: {}
