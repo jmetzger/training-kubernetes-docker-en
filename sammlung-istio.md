@@ -2,7 +2,7 @@
 
 ## Overview 
 
-![https://istio.io/latest/docs/ops/deployment/architecture/arch.svg]
+![Architecture](https://istio.io/latest/docs/ops/deployment/architecture/arch.svg)
 
 ## Istio 
 
@@ -19,6 +19,11 @@ kubectl label namespace default istio-injection=enabled
 # Gateway (like Ingress in vanilla Kubernetes) 
 kubectl label namespace default istio-injection=enabled
 ```
+
+## Visualization of Services (kiali - included in istio)
+
+![Kiali Visualization](https://istio.io/latest/docs/tasks/observability/kiali/kiali-graph.png)
+
 
 ## istio - the next generation without sidecar 
 
