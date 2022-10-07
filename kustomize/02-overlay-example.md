@@ -1,11 +1,9 @@
 # Example for kustomization with overlay 
 
-## Konzept Overlay 
+## concepts Overlay 
 
-  * Base + Overlay = Gepatchtes manifest 
-  * Sachen patchen.
-  * Die werden drübergelegt. 
-
+  * Base + Overlay = Patched manifests
+ 
 ## Example 1: Walkthrough 
 
 ```
@@ -69,7 +67,7 @@ patches:
 kind: Service
 apiVersion: v1
 metadata:
-  #Name der zu patchenden Ressource
+  #Name the to be patched resource 
   name: service-app 
 spec:
   # Changed to Nodeport
