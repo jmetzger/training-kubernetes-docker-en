@@ -139,6 +139,9 @@
      * [Basics](/helm/basics.md)
      * [Example with kubernetes package manager](/helm/example.md)
   
+  1. Kustomize 
+     * [Kustomize Exercise/Example](/kustomize/02-overlay-example.md) 
+  
   1. Kubernetes - Tipps & Tricks 
      * [Assigning Pods to Nodes](/tipps-tricks/pods-2-nodes.md) 
      * [Kubernetes debugging ClusterIP/PodIP](/tipps-tricks/cluster-ip-debug.md)
