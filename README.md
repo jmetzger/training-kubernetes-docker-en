@@ -106,10 +106,11 @@
   1. Kubernetes - RBAC 
      * [Nutzer einrichten](/kubernetes/rbac-create-user.md) 
  
-  1. Kubernetes - Netzwerk (CNI's) 
+  1. Kubernetes - Netzwerk (CNI's) + Mesh 
      * [Übersicht Netzwerke](/kubernetes-networks/overview.md) 
      * [Callico - nginx example](/kubernetes-network/callico/00-simple-example.md)
      * [Callico - client-backend-ui-example](/kubernetes-network/callico/01-example-with-services.md)
+     * [Mesh - istio as a type of implementation](sammlung-istio.md)
    
   1. Kubernetes - Monitoring (microk8s und vanilla) 
      * [metrics-server aktivieren (microk8s und vanilla)](/microk8s/metrics-server.md)
