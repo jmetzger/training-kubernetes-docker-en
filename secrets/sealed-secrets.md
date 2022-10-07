@@ -2,14 +2,14 @@
 
 ## 2 Komponenten 
 
- * Sealed Secrets besteht aus 2 Teilen 
-   * kubeseal, um z.B. die Passwörter zu verschlüsseln 
-   * Dem Operator (ein Controller), der das Entschlüsseln übernimmt  
+ * Sealed Secrets consists of 2 components 
+   * kubeseal, to encrypt passwords  
+   * The Operator (ein Controller) is in charge for decrypting   
 
 ## Schritt 1: Walkthrough - Client Installation (als root)
 
 ```
-# Binary für Linux runterladen, entpacken und installieren 
+# download binary for linux 
 # Achtung: Immer die neueste Version von den Releases nehmen, siehe unten:
 # Install as root 
 cd /usr/src 
@@ -19,7 +19,7 @@ install -m 755 kubeseal /usr/local/bin/kubeseal
 
 ```
 
-## Schritt 2: Walkthrough - Server Installation mit kubectl client 
+## Schritt 2: Walkthrough - Server Installation with kubectl client 
 
 ```
 # auf dem Client 
