@@ -3,35 +3,36 @@
 ## CNI 
 
   * Common Network Interface
-  * Fest Definition, wie Container mit Netzwerk-Bibliotheken kommunizieren
-
+  * fixed Definition, how containers with network libraries are communicating
+  * 
 ## Docker - Container oder andere 
 
-  * Container wird hochgefahren -> über CNI -> zieht Netzwerk - IP  hoch. 
-  * Container witd runtergahren -> uber CNI -> Netzwerk - IP wird released 
+  * Container is started -> over CNI -> get pod-ip 
+  * Container is stopped -> over CNI -> pod - IP is released 
 
-## Welche gibt es ? 
+## Which are there ? 
 
   * Flanel
   * Canal 
   * Calico 
+  * Cilium 
   
 ## Flannel
 
-### Overlay - Netzwerk 
+### Overlay - Network 
 
   * virtuelles Netzwerk was sich oben drüber und eigentlich auf Netzwerkebene nicht existiert
   * VXLAN 
 
 ### Vorteile 
 
-  * Guter einfacher Einstieg 
-  * redziert auf eine Binary flanneld 
+  * good and easy start
+  * reduced to only one binary flanneld 
 
 ### Nachteile 
 
-  * keine Firewall - Policies möglich 
-  * keine klassichen Netzwerk-Tools zum Debuggen möglich. 
+  * no network policies allowed 
+  * hard to debug, because no classical network (virtual), cannot use classic network tools
 
 ## Canal 
 
@@ -42,7 +43,7 @@
 
 ## Calico
 
-### Generell 
+### Generally 
 
   * klassische Netzwerk (BGP)
 
@@ -57,6 +58,8 @@
 
 ### Referenz 
   * https://projectcalico.docs.tigera.io/security/calico-network-policy
+
+## Cilium 
 
 ## microk8s Vergleich 
 
