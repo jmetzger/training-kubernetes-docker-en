@@ -165,7 +165,7 @@
      * [Kubernetes run as non root](security/uebung-runasuser.md)
     
   1. Kubernetes Deployment Scenarios 
-     * [Deployment green/blue,canary,rolling update](/kubernetes/deployment-types.md)
+     * [Deployment green/blue,canary,rolling update](/kubernetes/deployment-strategies-en.md)
     
   1. Linux und Docker Tipps & Tricks allgemein 
      * [Auf ubuntu root-benutzer werden](sudo.md)
