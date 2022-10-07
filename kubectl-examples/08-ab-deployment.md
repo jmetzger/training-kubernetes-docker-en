@@ -121,9 +121,9 @@ spec:
 ```
 kubectl apply -f . 
 # get external ip  
-kubectl get nodes 
+kubectl get nodes -o wide 
 # get port
-kubectl get svc my-nginx 
+kubectl get svc my-nginx -o wide 
 # test it with curl apply it multiple time (at least ten times)
 curl <external-ip>:<node-port>
 ```
