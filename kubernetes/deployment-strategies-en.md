@@ -16,7 +16,7 @@ From: a canary was used to test if the air was good in the mine
 The current version is the Blue one 
 The new version is the Green one 
 
-New Version (GREEN) will be tested and if it works the traffic 
+New Version (GREEN) will be tested and if it works  
 the traffic will be switch completey to the new version (GREEN) 
 
 Old version can either be deleted or will function as fallback 
